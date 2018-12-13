@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>STUDENTS PROPERTIES</title>
+<title>STUDENT</title>
 </head>
 <script>
   var stu1=new student("mounika");
@@ -16,7 +16,6 @@
      this.name=name;
      var subject=new Array(Math.floor(Math.random() *100),Math.floor(Math.random() *100),Math.floor(Math.random() *100));
     names.push(name);
-    // <h1>sort based on name</h1>
      names.sort(function(a,b)
      {
          return (a-b);
@@ -28,13 +27,11 @@
    avg=total/3;
    avgs.push(avg);
   }
-  //<h1>sort based on averages</h1>
   total.sort(function(a,b)
      {
          return (a-b);
      }
    );
-  //<h1>sort based on totals</h1>
   avg.sort(function(a,b)
      {
         return (a-b);
