@@ -37,14 +37,14 @@ function Student(name)
 
 for(var k=0;k<5;k++)
 {
- document.writeln("sum:"+p[k]+" avg:"+c[k]+" name: "+names[k]+"<br>");
+ document.writeln("sum:"+p[k]+" avg:"+c[k]+" name: "+names[k].name+"<br>");
  }
 //names.sort();
 p.sort(function(a,b){return(a-b);});
 //c.sort(function(a,b){return(a-b);});
 for(var k=0;k<5;k++)
 {
- document.writeln("based on total:"+p[k]+" "+names[k]+"</br>");}
+ document.writeln("based on total:"+p[k]+" "+names[k].name+"</br>");}
 //names.sort();
 //p.sort(function(a,b){return(a-b);});
 c.sort(function(a,b){return(a-b);});
